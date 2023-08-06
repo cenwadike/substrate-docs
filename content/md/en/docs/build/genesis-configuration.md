@@ -47,7 +47,6 @@ To initialize a storage item for the `pallet_template`:
    }
    ```
 
-````
 
 In this example, the `#[derive(Default)]` macro is required to satisfy a trait bound requirement in `frame_support::traits::GenesisBuild`.
 
